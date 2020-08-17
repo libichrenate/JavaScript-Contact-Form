@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Contact Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="contactform.js"></script>
+    </head>
+    <body>
+        <div id="ty">
+            <h2 id="text">Thank you for contacting us</h2>
+        </div>
+        <div id="border">
+        <img src="https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" width="280" height="280">
+        <form name="myForm" action="/" method="GET" onsubmit="validate(); return false;">
+            <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+            <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+            <label for="gender">Gender</label><br>
+            <input type="radio" id="male" name="male" value="M">M<br>
+            <input type="radio" id="female" name="female" value="F">F<br>
+            <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Your message here"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+        </div>
+    </body>
+</html>

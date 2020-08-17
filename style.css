@@ -1,0 +1,31 @@
+#border{
+    border: 1px solid black;
+}
+img{
+   float: right;
+   display: block;
+   margin-right: 500px;
+   padding-top: 3%;
+   height: 340px;
+   width: 340px;
+}
+input[type=text]{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#comments{
+    width: 30%;
+}
+form{
+    padding-left: 4%;
+    padding-top: 3%;
+}
+#ty{
+    background-color: greenyellow;
+    display: none;
+}
+h2{
+    color: green;
+}
